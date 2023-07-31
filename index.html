@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./images/p-fav.png" type="image/x-icon">
+    <!-- Daisy + Tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <!-- Outfit Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#252D62] text-white ">
+    <!-- class="bg-[#252D62] text-white" -->
+    <header class="md:container md:mx-auto h-auto">
+       <div class="flex justify-around">
+            <div>
+                <h2 class="btn btn-ghost normal-case text-4xl font-extrabold text-white">Port<span class="text-[#e74c3c]">folio.</span></h2>
+            </div>
+            <div class="hidden lg:flex justify-end">
+                <div class="btn btn-ghost normal-case text-xl"><a href="#">Home</a></div>
+                <div class="btn btn-ghost normal-case text-xl"><a href="#">Introduction</a></div>
+                <div class="btn btn-ghost normal-case text-xl"><a href="#">About</a></div>
+                <div class="btn btn-ghost normal-case text-xl"><a href="#">Login</a></div>
+            </div>
+            <div>
+                <details class="btn btn-ghost lg:hidden dropdown dropdown-left mb-32">
+                    <summary class="m-1 btn">
+                        <img class="w-5" src="./images/three-line.svg" alt="">
+                    </summary>
+                    <ul class="p-2 shadow menu dropdown-content  mt-6 z-[1] bg-[#8F8FDB] rounded-box w-52">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Introduction</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Login</a></li>
+                    </ul>
+                  </details>
+            </div>
+       </div>
+       <div class="flex lg:flex-row lg:p-0 flex-col-reverse p-4 items-center justify-around" >
+        <div>
+            <h2  class="text-3xl lg:text-5xl font-extrabold mb-3" ><span class="text-[#e74c3c]" >Hi,</span> I am <span class="text-cyan-200">Prosonjit</span> </h2>
+            <p class="text-xl font-normal">I am a Website Designer and Developer</p>
+            <button class="mt-4 btn btn-outline btn-success sm:btn-sm md:btn-md lg:btn-lg text-white rounded-full"><a href="#">Whatsapp</a></button>
+            <button class="btn btn-outline btn-accent sm:btn-sm md:btn-md lg:btn-lg text-white rounded-full"><a href="#">Learn More</a></button>
+        </div>
+        <div>
+            <img class="" style="width: 450px;" src="./images/amar.png" alt="Me">
+        </div>
+    </div>
+    </header>
+    <main class="md:container md:mx-auto h-auto">
+        <section class="flex lg:flex-row lg:p-0 flex-col p-4 items-center justify-around lg:pr-5">
+            <div>
+                <img src="./images/Ikbal 5.png" alt="">
+            </div>
+            <div>
+                <h4 class="text-lime-400" >GET STARTED</h4>
+                <h2 class="text-3xl lg:text-5xl font-bold capitalize mb-4">Grow your portfolio <br> with the AI enrich <br> content</h2>
+                <p class="text-lg font-normal mb-4" >The easiest way to create a content with an one click. Just type the word! </p>
+                <button class="btn btn-outline btn-accent sm:btn-sm md:btn-md lg:btn-lg text-white rounded-full"><a href="#">GET STARTED</a></button>
+            </div>
+        </section>
+        <section class="flex lg:flex-row lg:p-0 flex-col p-4 items-center justify-around lg:pl-5">
+            <div>
+                <h4 class="text-lime-400" >CONTENT</h4>
+                <h2 class="text-3xl lg:text-5xl font-bold capitalize mb-4">Create Content <br>easily for anything</h2>
+                <p class="text-lg font-normal mb-4" >The easiest way to create a content with an one click. Just type the word!</p>
+                <button class="btn btn-outline btn-accent sm:btn-sm md:btn-md lg:btn-lg text-white rounded-full"><a href="#">just a click</a></button>
+            </div>
+            <div>
+                <img src="./images/Other 17.png" alt="">
+            </div>
+        </section>
+        <!-- awesome content simplified -->
+        <section>
+            <div class="text-center">
+                <p class="uppercase text-base">create</p>
+                <h2 class="capitalize text-2xl lg:text-5xl font-extrabold">awesome content simplified</h2>
+            </div>
+        </section>
+        <section>
+            
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer p-10  text-neutral-content md:container md:mx-auto h-auto lg:pl-28">
+        <div class="">
+          <span class="footer-title">Services</span> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </div> 
+        <div>
+          <span class="footer-title">Company</span> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </div> 
+        <div>
+          <span class="footer-title">Legal</span> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </div>
+      </footer>
+</body>
+</html>
